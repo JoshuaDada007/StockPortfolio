@@ -20,11 +20,7 @@ public class Stock {
         this.shares = shares;
     }
 
-//    public Stock(String symbol, double price, int shares){
-//        this.symbol = symbol;
-//        this.price = price;
-//        this.shares = shares;
-//    }
+
 
     public Stock(String symbol, String name, double price, int volume, long marketCap, double dividend) throws IOException {
         this.symbol = symbol;

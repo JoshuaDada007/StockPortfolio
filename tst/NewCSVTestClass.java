@@ -17,11 +17,10 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 public class NewCSVTestClass {
-    Investment investment = new Investment();
-    String url = "https://gist.githubusercontent.com/JoshuaDada007/e35c86bd1e2a86cf823316fa0f1bbe3c/raw/42d73bc4bbb93bdea7c5423f4bf6df7021c5c87e/portfolio.csv";
 
 
-    @Ignore
+
+    @Test
     public void loadState() throws Exception {
         CSVParser parse = CSVParser.parse(new File("data.csv"), StandardCharsets.UTF_8,
                 CSVFormat.DEFAULT.builder().setHeader().build());
@@ -41,7 +40,6 @@ public class NewCSVTestClass {
     public void downloadFile() throws Exception {
         URL url = new URL("https://gist.githubusercontent.com/JoshuaDada007/e35c86bd1e2a86cf823316fa0f1bbe3c/raw/5fbf2dd6d268e785a3cd6a5c3f9564133d8129db/portfolio.csv");
         InputStream in = url.openStream();
-//        System.out.println(IOUtils.toString(in, StandardCharsets.UTF_8));
         CSVParser parser = CSVParser.parse(url, StandardCharsets.UTF_8, CSVFormat.DEFAULT.builder().setHeader().build());
         System.out.println("#################################");
         TreeMap<String, Integer> map = new TreeMap<>();
@@ -59,15 +57,6 @@ public class NewCSVTestClass {
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.println("Key: " + entry.getKey() + " \n Value: " + entry.getValue());
         }
-    }
-
-
-    @Test
-    public void loadPortfolioFromWeb() throws IOException {
-        investment.loadPricesFromWeb("NFLX");
-        System.out.println("###################################### \n \n \n");
-        investment.loadPortfolioFromWeb(url);
-
     }
 }
 
