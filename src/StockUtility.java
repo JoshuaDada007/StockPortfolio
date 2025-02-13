@@ -21,6 +21,7 @@ public class StockUtility {
         System.out.println("GME shares " + gmeShares);
         System.out.println("RBLX shares " + rblxShares);
         System.out.println("DOCN shares " + docnShares);
+        System.out.println(root);
 
         /*
         GME shares 12135.922330097086
