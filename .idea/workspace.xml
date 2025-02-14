@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1bffc85-d982-4238-94bc-c74aa13ffbb9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Investment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Investment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tst/InvestmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/InvestmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tst/NewCSVTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/NewCSVTestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JoshuaDada007"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JoshuaDada007&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JoshuaDada007/StockPortfolio.git",
-    "accountId": "4e831e97-041e-4e37-9818-a880999a5384"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JoshuaDada007/StockPortfolio.git&quot;,
+    &quot;accountId&quot;: &quot;4e831e97-041e-4e37-9818-a880999a5384&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -63,10 +60,13 @@
     "JUnit.CSVTestz.csvTestGit.executor": "Run",
     "JUnit.CSVTestz.dataCSVTest.executor": "Run",
     "JUnit.CSVTestz.executor": "Run",
+    "JUnit.InvestmentTest.exceptionTest.executor": "Run",
     "JUnit.InvestmentTest.executor": "Run",
     "JUnit.InvestmentTest.getTotalInvestment.executor": "Run",
     "JUnit.InvestmentTest.loadPortfolioFromWeb.executor": "Run",
     "JUnit.InvestmentTest.portfolioSize.executor": "Run",
+    "JUnit.InvestmentTest.totalAppleInvestment.executor": "Run",
+    "JUnit.InvestmentTest.viewPortfolioFromWeb.executor": "Run",
     "JUnit.LawyerTest.executor": "Run",
     "JUnit.NewCSVTestClass.downloadFile.executor": "Run",
     "JUnit.NewCSVTestClass.downloadFile2.executor": "Run",
@@ -106,22 +106,12 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InvestmentTest.loadPortfolioFromWeb">
+  <component name="RunManager" selected="JUnit.InvestmentTest">
     <configuration name="InvestmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ITEC4260_02_Spring2025" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="InvestmentTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvestmentTest.getTotalInvestment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ITEC4260_02_Spring2025" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InvestmentTest" />
-      <option name="METHOD_NAME" value="getTotalInvestment" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,11 +136,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewCSVTestClass.loadPortfolioFromWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InvestmentTest.totalAppleInvestment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ITEC4260_02_Spring2025" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NewCSVTestClass" />
-      <option name="METHOD_NAME" value="loadPortfolioFromWeb" />
+      <option name="MAIN_CLASS_NAME" value="InvestmentTest" />
+      <option name="METHOD_NAME" value="totalAppleInvestment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvestmentTest.viewPortfolioFromWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ITEC4260_02_Spring2025" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InvestmentTest" />
+      <option name="METHOD_NAME" value="viewPortfolioFromWeb" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InvestmentTest.loadPortfolioFromWeb" />
         <item itemvalue="JUnit.InvestmentTest" />
+        <item itemvalue="JUnit.InvestmentTest.totalAppleInvestment" />
+        <item itemvalue="JUnit.InvestmentTest.viewPortfolioFromWeb" />
+        <item itemvalue="JUnit.InvestmentTest.loadPortfolioFromWeb" />
         <item itemvalue="JUnit.InvestmentTest.portfolioSize" />
-        <item itemvalue="JUnit.InvestmentTest.getTotalInvestment" />
-        <item itemvalue="JUnit.NewCSVTestClass.loadPortfolioFromWeb" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +199,8 @@
       <workItem from="1739198175148" duration="597000" />
       <workItem from="1739225210214" duration="30000" />
       <workItem from="1739289324635" duration="8108000" />
-      <workItem from="1739397893941" duration="6803000" />
+      <workItem from="1739397893941" duration="7580000" />
+      <workItem from="1739489875191" duration="1630000" />
     </task>
     <servers />
   </component>
