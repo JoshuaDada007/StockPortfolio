@@ -28,12 +28,13 @@ A console-based Java application that reads a user's stock portfolio from a remo
 
 Your portfolio should be structured like this:
 
+<pre>
 Symbol,Shares
 AAPL,500
-IBM,300
 NFLX,200
-AVB,150
-BAC,400
+IBM,300
+</pre>
+
 
 ## 🚀 How to Run the App
 
